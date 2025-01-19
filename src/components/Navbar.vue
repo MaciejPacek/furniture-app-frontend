@@ -19,23 +19,36 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html"> About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="furniture.html">Furnitures</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
+            <LinkComponent
+              href="/home.html"
+              title-to-display="Home"
+              parentClasses="nav-item "
+              childrenClasses="nav-link"
+            />
+            <LinkComponent
+              href="/about.html"
+              title-to-display="About"
+              parentClasses="nav-item"
+              childrenClasses="nav-link"
+            />
+            <LinkComponent
+              href="/furnitures"
+              title-to-display="Furnitures"
+              parentClasses="nav-item"
+              childrenClasses="nav-link"
+            />
+            <LinkComponent
+              href="/blog.html"
+              title-to-display="Blog"
+              parentClasses="nav-item"
+              childrenClasses="nav-link"
+            />
+            <LinkComponent
+              href="/contact-us.html"
+              title-to-display="Contact Us"
+              parentClasses="nav-item"
+              childrenClasses="nav-link"
+            />
           </ul>
         </div>
         <div class="quote_btn-container">
@@ -55,18 +68,13 @@
 </template>
 
 <script>
+import LinkComponent from "./LinkComponent.vue";
 export default {
   name: "NavBar",
   //   props: ["title"],
   props: {},
-  components: {},
-
-  // props:{
-  //     title:{
-  //         type:String,
-  //         default:'this is me not you just me'
-  //     }
-
-  // }
+  components: {
+    LinkComponent,
+  },
 };
 </script>
