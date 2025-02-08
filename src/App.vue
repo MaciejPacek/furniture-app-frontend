@@ -1,13 +1,18 @@
 <template>
   <div id="app">
-    <NavBar />
-    <SliderComponent />
+    <div class="hero_area"> 
+      <NavBar />
+      <SliderComponent />
+      <GalleryComponent />
+    </div>
+    
   </div>
 </template>
 
 <script>
 import NavBar from "./components/Navbar.vue";
 import SliderComponent from "./components/SliderComponent.vue";
+import GalleryComponent from "./components/GalleryComponent.vue";
 import '@/assets/css/bootstrap.css'
 import '@/assets/css/responsive.css'
 import '@/assets/css/slick.css'
@@ -19,6 +24,7 @@ export default {
   components: {
     NavBar,
     SliderComponent,
+    GalleryComponent,
   },
   methods: {
     
