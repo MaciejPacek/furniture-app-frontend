@@ -221,6 +221,8 @@ a:focus {
           align-items: center;
   position: relative;
   background-color: #f9fafa;
+  padding-top:55px;
+  padding-bottom: 55px;
 }
 
 .slider_section .row {
