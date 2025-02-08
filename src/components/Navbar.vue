@@ -71,7 +71,6 @@
 import LinkComponent from "./LinkComponent.vue";
 export default {
   name: "NavBar",
-  //   props: ["title"],
   props: {},
   components: {
     LinkComponent,
