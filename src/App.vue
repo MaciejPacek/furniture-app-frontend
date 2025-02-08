@@ -8,6 +8,8 @@
     <AboutUsComponent />
     <BlogComponnet />
     <RateComponent />
+    <ContactUsComponent />
+    <InfoComponent />
   </div>
 </template>
 
@@ -18,6 +20,8 @@ import GalleryComponent from "./components/GalleryComponent.vue";
 import AboutUsComponent from "./components/AboutUsComponent.vue";
 import BlogComponnet from "./components/BlogComponnet.vue";
 import RateComponent from "./components/RateComponent.vue";
+import ContactUsComponent from "./components/ContactUsComponent.vue";
+import InfoComponent from "./components/InfoComponent.vue";
 import '@/assets/css/bootstrap.css'
 import '@/assets/css/responsive.css'
 import '@/assets/css/slick.css'
@@ -33,6 +37,8 @@ export default {
     AboutUsComponent,
     BlogComponnet,
     RateComponent,
+    ContactUsComponent,
+    InfoComponent,
   },
   methods: {
     
