@@ -7,6 +7,7 @@
     <GalleryComponent />
     <AboutUsComponent />
     <BlogComponnet />
+    <RateComponent />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import SliderComponent from "./components/SliderComponent.vue";
 import GalleryComponent from "./components/GalleryComponent.vue";
 import AboutUsComponent from "./components/AboutUsComponent.vue";
 import BlogComponnet from "./components/BlogComponnet.vue";
+import RateComponent from "./components/RateComponent.vue";
 import '@/assets/css/bootstrap.css'
 import '@/assets/css/responsive.css'
 import '@/assets/css/slick.css'
@@ -30,6 +32,7 @@ export default {
     GalleryComponent,
     AboutUsComponent,
     BlogComponnet,
+    RateComponent,
   },
   methods: {
     

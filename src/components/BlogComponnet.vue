@@ -50,7 +50,7 @@
             </div>
             <div class="detail-box">
               <h5>
-                Molestias magni natus dolores odio commodi. Quaerat!
+                Molestias magni natus dolores odio commodi.
               </h5>
               <p>
                 alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
