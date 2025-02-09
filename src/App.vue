@@ -10,6 +10,7 @@
     <RateComponent />
     <ContactUsComponent />
     <InfoComponent />
+    <FootComponent />
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import BlogComponnet from "./components/BlogComponnet.vue";
 import RateComponent from "./components/RateComponent.vue";
 import ContactUsComponent from "./components/ContactUsComponent.vue";
 import InfoComponent from "./components/InfoComponent.vue";
+import FootComponent from "./components/FootComponent.vue";
 import '@/assets/css/bootstrap.css'
 import '@/assets/css/responsive.css'
 import '@/assets/css/slick.css'
@@ -39,6 +41,7 @@ export default {
     RateComponent,
     ContactUsComponent,
     InfoComponent,
+    FootComponent,
   },
   methods: {
     

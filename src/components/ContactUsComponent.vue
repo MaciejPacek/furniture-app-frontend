@@ -33,11 +33,9 @@
         <div class="col-md-6">
           <div class="map_container">
             <div class="map">
-                <div class="col-md-2">
                   <div class="img-box">
                     <img src="../assets/images/slider-img.png" alt="">
                   </div>
-                </div>
             </div>
           </div>
         </div>
