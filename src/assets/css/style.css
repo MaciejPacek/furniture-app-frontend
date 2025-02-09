@@ -647,10 +647,19 @@ a:focus {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100%;         
 }
 
 .contact_section .map_container .map #googleMap {
   height: 100%;
+}
+
+.contact_section .map_container .map .img-box img {
+  width: 30rem;
+  height: auto;
 }
 
 .info_section {
@@ -843,4 +852,3 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
-/*# sourceMappingURL=style.css.map */
